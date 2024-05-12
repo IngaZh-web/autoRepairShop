@@ -1,15 +1,13 @@
 import { fetchData } from "./fetchData.js";
 
 const form = document.querySelector(".form");
-
-const formFieldsets = document.querySelectorAll(".form__fieldset");
-
+// const formFieldsets = document.querySelectorAll(".form__fieldset");
 const formBtnPrev = document.querySelector(".form__btn_prev");
 const formBtnNext = document.querySelector(".form__btn_next");
 const formBtnSubmit = document.querySelector(".form__btn_submit");
 const formTime = document.querySelector('.form__time');
-const formFieldsetType = document.querySelector('form__fieldset_type');
-const formFieldsetDate = document.querySelector('form__fieldset_date');
+const formFieldsetType = document.querySelector('.form__fieldset_type');
+const formFieldsetDate = document.querySelector('.form__fieldset_date');
 const formFieldsetClient = document.querySelector('.form__fieldset_client');
 const typeRadioWrapper = document.querySelector('.form__radio-wrapper_type');
 const dayRadioWrapper = document.querySelector('.form__radio-wrapper_day');
@@ -17,7 +15,7 @@ const timeRadioWrapper = document.querySelector('.form__radio-wrapper_time');
 const formMonthsWrapper = document.querySelector('.form__months');
 const formInfoType = document.querySelector('.form__info_type');
 const formInfoData = document.querySelector('.form__info-data');
-// const formFieldsets = [formFieldsetType, formFieldsetDate, formFieldsetClient];
+const formFieldsets = [formFieldsetType, formFieldsetDate, formFieldsetClient];
 
 const currentMonth = new Intl.DateTimeFormat('ru-RU', {month: 'long'}).format(new Date(),);
 let month = currentMonth;
