@@ -232,7 +232,7 @@ const init = () => {
 	})
 	
 
-	form.addEventListener('change', handleInputForm)
+	form.addEventListener('input', handleInputForm)
 	updateFieldsetVisibility();
 	renderTypeFieldset();
 
