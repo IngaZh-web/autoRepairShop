@@ -53,7 +53,7 @@ const createRadioBtns = (wrapper, name, data) => {
 	});
 };
 
-const allMonth = ['январь', 'февраль', 'март', 'апрель', 'май', 'июнь', 'июль', 'август', 'сентябрь', 'октябрь', 'ноябрь', 'декабрь'];
+const allMonth = ['июль', 'август', 'сентябрь', 'октябрь', 'ноябрь', 'декабрь'];
 
 const showResultData = () => {
 	const currentYear = new Date().getFullYear();
